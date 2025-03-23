@@ -112,4 +112,5 @@ A method is considered ==**safe**== if it does not modify the server state
 A method is ==***idempotent***== if it can be called many times without different outcomes, returning the same response (representation)
 	- GET, HEAD, PUT and DELETE are ***idempotent***
 	- POST is not ***idempotent***
+Test
 
